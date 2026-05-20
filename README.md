@@ -21,7 +21,6 @@ Tableau Dashboard: https://public.tableau.com/views/Visa_Fundamental_Analysis/Vi
 ## Project Structure
 
 ```
-│
 ├── README.md                          # This file
 │
 ├── main_model.ipynb                   # (Google Colab compatible)                                
@@ -257,10 +256,10 @@ Complete, reconciled financials for 9 years (2022–2030):
 ### Quality Score
 
 Measures:
--Profitability
--Capital efficiency
--Cash flow quality
--Balance sheet strength
+- Profitability
+- Capital efficiency
+- Cash flow quality
+- Balance sheet strength
 
 - 2025 -> 51.92
 - 2030 -> 90.20
@@ -269,12 +268,12 @@ Measures:
 ### Risk Score
 
 Measures:
--Leverage
--Coverage
--Liquidity
--Cash flow stress
--Operating risk
--Volatility risk
+- Leverage
+- Coverage
+- Liquidity
+- Cash flow stress
+- Operating risk
+- Volatility risk
 
 - 2025 -> 54.39
 - 2030 -> 26.41
@@ -283,11 +282,11 @@ Measures:
 ### Growth Score
 
 Measures:
--Revenue growth
--Earnings growth
--Cash flow growth
--Operating growth
--Reinvestment growth
+- Revenue growth
+- Earnings growth
+- Cash flow growth
+- Operating growth
+- Reinvestment growth
 
 - 2025 -> 45.05
 - 2030 -> 31.43
@@ -329,16 +328,16 @@ Measures:
 ## Investment Thesis
 
 ### Key Upside Catalysts 
-▲ Strong valuation upside (~35.5% to target)
-▲ Improving business quality trajectory (51.9 → 90.2)
-▼ Declining risk profile over forecast period (54.4 → 26.4)
-■ Valuation multiple expansion potential (PE: 31.6x → 27x)
+- ▲ Strong valuation upside (~35.5% to target)
+- ▲ Improving business quality trajectory (51.9 → 90.2)
+- ▼ Declining risk profile over forecast period (54.4 → 26.4)
+- ■ Valuation multiple expansion potential (PE: 31.6x → 27x)
 
 ### Key Downside Risks 
-■ Moderate current business quality profile (51.9/100)
-▼ Suboptimal long-term growth trajectory (6–9% CAGR)
-▲ Elevated near-term risk levels (54/100)
-▲ High dependence on terminal value assumptions
+- ■ Moderate current business quality profile (51.9/100)
+- ▼ Suboptimal long-term growth trajectory (6–9% CAGR)
+- ▲ Elevated near-term risk levels (54/100)
+- ▲ High dependence on terminal value assumptions
 
 ---
 
@@ -370,11 +369,11 @@ notebook main_model.ipynb
 
 ## Known Assumptions & Limitations
 
--Forecasts assume stable macroeconomic conditions
--Terminal growth capped at 4%
--DCF highly sensitive to WACC assumptions
--Multiples valuation depends on market sentiment
--Historical financial data sourced through yfinance
--Forecasts rely partially on historical trend continuation
+- Forecasts assume stable macroeconomic conditions
+- Terminal growth capped at 4%
+- DCF highly sensitive to WACC assumptions
+- Multiples valuation depends on market sentiment
+- Historical financial data sourced through yfinance
+- Forecasts rely partially on historical trend continuation
 
 ---
