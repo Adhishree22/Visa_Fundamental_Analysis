@@ -4,11 +4,11 @@ A production-grade equity research and valuation project on Visa Inc. (NYSE: V) 
 
 The project integrates historical financial data (2022–2025), driver-based forecasting (2026–2030), fully linked three-statement modeling, ratio analysis, multi-method valuation, quality/risk/growth scoring, and Tableau-based visualization into a complete institutional-style investment framework.
 
-**Recommendation:** BUY
-**Market Price:** $339.30
-**Target Price:** $460
-**Implied Upside:** +35%
-**Conviction:** MEDIUM CONVICTION (68.93%)
+-**Recommendation:** BUY
+-**Market Price:** $339.30
+-**Target Price:** $460
+-**Implied Upside:** +35%
+-**Conviction:** MEDIUM CONVICTION (68.93%)
 
 ---
 
