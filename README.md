@@ -262,9 +262,8 @@ Measures:
 -Cash flow quality
 -Balance sheet strength
 
-**Year**  **Score**
-2025  51.92
-2030  90.20
+-2025 -> 51.92
+-2030 -> 90.20
 
 
 ### Risk Score
@@ -277,12 +276,11 @@ Measures:
 -Operating risk
 -Volatility risk
 
-**Year**  **Score**
-2025  54.39
-2030  26.41
+-2025 -> 54.39
+-2030 -> 26.41
 
 
-###Growth Score
+### Growth Score
 
 Measures:
 -Revenue growth
@@ -291,13 +289,13 @@ Measures:
 -Operating growth
 -Reinvestment growth
 
-**Year**  **Score**
-2025  45.05
-2030  31.43
+-2025 -> 45.05
+-2030 -> 31.43
 
 ---
 
 ## Tableau Story — 6 Dashboards
+
 | # | Dashboard | Key Charts |
 |---|-----------|------------|
 | 1 |**Executive Summary** | KPIs, Recommendation card, Valuation Summary, Capital Return Metrics, Revenue & EPS Trends | 
