@@ -13,7 +13,7 @@ The project integrates historical financial data (2022–2025), driver-based for
 ---
 
 ## Live Dashboard
-Tableau Dashboard: [Insert Tableau Public Link]
+Tableau Dashboard: https://public.tableau.com/views/Visa_Fundamental_Analysis/VisaFundamentalAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 ---
 
@@ -21,7 +21,6 @@ Tableau Dashboard: [Insert Tableau Public Link]
 ## Project Structure
 
 ```
-financial-model/
 │
 ├── README.md                          # This file
 │
@@ -128,14 +127,14 @@ Tableau Dashboard Visualization
 ### Historical & Forecast Coverage
 | # | Category | Coverage |
 |---|-----------|------------|
-| 1 |Historical Period | 2022–2025 |
-| 2 |Forecast Period | 2026–2030 |
-| 3 |Financial Metrics | 75 |
-| 4 |Ratios & KPIs | 70+ |
-| 5 |Statements | Income Statement, Balance Sheet, Cash Flow |
-| 6 |Schedules | Debt, Equity, PPE, Working Capital |
-| 7 |Valuation | Equity Multiples, Enterprise Multiples, Yield Multiples, DCF  |
-| 8 |Reconciliation | Fully linked and balanced |
+| 1 |**Historical Period** | 2022–2025 |
+| 2 |**Forecast Period** | 2026–2030 |
+| 3 |**Financial Metrics** | 75 |
+| 4 |**Ratios & KPIs** | 70+ |
+| 5 |**Statements** | Income Statement, Balance Sheet, Cash Flow |
+| 6 |**Schedules** | Debt, Equity, PPE, Working Capital |
+| 7 |**Valuation** | Equity Multiples, Enterprise Multiples, Yield Multiples, DCF  |
+| 8 |**Reconciliation** | Fully linked and balanced |
 
 ---
 
@@ -148,18 +147,18 @@ Revenue = Payment Volume × Take Rate
 
 | # | Driver | 2025 | 2030 |
 |---|-----------|------------|------------|
-| 1 |Payment Volume Growth | 5.64% | 4.94% | 
-| 2 |Take Rate | 0.28% | 0.33% |
-| 3 |Revenue CAGR | — | 8.02% |
+| 1 |**Payment Volume Growth** | 5.64% | 4.94% | 
+| 2 |**Take Rate** | 0.28% | 0.33% |
+| 3 |**Revenue CAGR** | — | 8.02% |
 
 ### Forecast Outputs
 | # | Metric | 2025 | 2030 |
 |---|-----------|------------|------------|
-| 1 |Revenue | $39.96B | $60.79B | 
-| 2 |Net Income | $20.04B | $31.77B | 
-| 3 |Free Cash Flow | $21.58B | $37.89B | 
-| 4 |Operating Margin | 66.39% | 67.06% | 
-| 5 |Net Margin | 50.14% | 52.27% | 
+| 1 |**Revenue** | $39.96B | $60.79B | 
+| 2 |**Net Income** | $20.04B | $31.77B | 
+| 3 |**Free Cash Flow** | $21.58B | $37.89B | 
+| 4 |**Operating Margin** | 66.39% | 67.06% | 
+| 5 |**Net Margin** | 50.14% | 52.27% | 
 
 ---
 
@@ -169,7 +168,7 @@ Revenue = Payment Volume × Take Rate
 Complete, reconciled financials for 9 years (2022–2030):
 
 **Income Statement** (all years, all line items):
-- Revenue → COGS → Gross Profit → OpEx → Operating Income → Other Expense → Interest → EBT → Taxes → Net Income
+- ***Revenue → COGS → Gross Profit → OpEx → Operating Income → Other Expense → Interest → EBT → Taxes → Net Income***
 - 2030 Revenue: $60.79B | 2030 Net Income: $31.77B
 - Stable operating margin: 66.39% (2025) → 67.06% (2030)
 - Stable net margin: 50.14% (2025) → 52.27% (2030)
@@ -239,18 +238,18 @@ Complete, reconciled financials for 9 years (2022–2030):
 ### Core Assumptions
 | # | Assumption  | Value
 |---| --------------------- | ------------|
-| 1 | WACC  | 7.32%  | 
-| 2 | Risk Free Rate  | 0.07  | 
-| 3 | Market Premium  | 0.05  | 
-| 4 | Terminal Growth Rate  | 4.00%  | 
+| 1 | **WACC**  | 7.32%  | 
+| 2 | **Risk Free Rate**  | 0.07  | 
+| 3 | **Market Premium**  | 0.05  | 
+| 4 | **Terminal Growth Rate**  | 4.00%  | 
 
 
 ## DCF Scenario Outputs
 | # |Scenario  | Enterprise Value  | Equity Value  | Implied Price  | Terminal Value Weight  | 
 |---|-------------------| ---------------- | ---------------- | ----------------| ---------------- |
-| 1 |Low Case  | $747.4B  | $741.8B  | $375.42  | 83%  | 
-| 2 |Base Case  | $960.0B  | $954.5B  | $483.04  | 87%  | 
-| 3 |High Case  | $1.36T  | $1.35T  | $683.26  | 91%  | 
+| 1 |**Low Case** | $747.4B  | $741.8B  | $375.42  | 83%  | 
+| 2 |**Base Case**| $960.0B  | $954.5B  | $483.04  | 87%  | 
+| 3 |**High Case** | $1.36T  | $1.35T  | $683.26  | 91%  | 
 
 ---
 
@@ -263,9 +262,9 @@ Measures:
 -Cash flow quality
 -Balance sheet strength
 
-Year	Score
-2025	51.92
-2030	90.20
+**Year**  **Score**
+2025  51.92
+2030  90.20
 
 
 ### Risk Score
@@ -278,9 +277,9 @@ Measures:
 -Operating risk
 -Volatility risk
 
-Year	Score
-2025	54.39
-2030	26.41
+**Year**  **Score**
+2025  54.39
+2030  26.41
 
 
 ###Growth Score
@@ -292,9 +291,9 @@ Measures:
 -Operating growth
 -Reinvestment growth
 
-Year	Score
-2025	45.05
-2030	31.43
+**Year**  **Score**
+2025  45.05
+2030  31.43
 
 ---
 
@@ -302,11 +301,11 @@ Year	Score
 | # | Dashboard | Key Charts |
 |---|-----------|------------|
 | 1 |**Executive Summary** | KPIs, Recommendation card, Valuation Summary, Capital Return Metrics, Revenue & EPS Trends | 
-| 2 |**Income Statement Analysis | Income Statement Structure, Margin Trends, YoY growth | 
-| 3 |**Balance Sheet Analysis | Assets Composition, Liabilities Equity Structure, Debt Maturity, Balance Sheet Ratios| 
-| 4 |**Cash Flow Analysis | Cash Flow Structure, FCF Vs Cash Balance, Cash Flow ratios | 
-| 5 |**Valuation & Multiples | Multiples Heatmap, DCF Sensitivity, Price Targets, Expected Returns | 
-| 6 |**Investment Framework | Quality Components, Risk Intelligence Heatmap, Factor Score trends, Returns Trends, Operating Summary, Investment Thesis Summary | 
+| 2 |**Income Statement Analysis** | Income Statement Structure, Margin Trends, YoY growth | 
+| 3 |**Balance Sheet Analysis** | Assets Composition, Liabilities Equity Structure, Debt Maturity, Balance Sheet Ratios| 
+| 4 |**Cash Flow Analysis** | Cash Flow Structure, FCF Vs Cash Balance, Cash Flow ratios | 
+| 5 |**Valuation & Multiples** | Multiples Heatmap, DCF Sensitivity, Price Targets, Expected Returns | 
+| 6 |**Investment Framework** | Quality Components, Risk Intelligence Heatmap, Factor Score trends, Returns Trends, Operating Summary, Investment Thesis Summary | 
 
 ---
 
@@ -331,13 +330,13 @@ Year	Score
 
 ## Investment Thesis
 
-### Key Upside Catalysts ⬆️
+### Key Upside Catalysts 
 ▲ Strong valuation upside (~35.5% to target)
 ▲ Improving business quality trajectory (51.9 → 90.2)
 ▼ Declining risk profile over forecast period (54.4 → 26.4)
 ■ Valuation multiple expansion potential (PE: 31.6x → 27x)
 
-### Key Downside Risks ⬇️
+### Key Downside Risks 
 ■ Moderate current business quality profile (51.9/100)
 ▼ Suboptimal long-term growth trajectory (6–9% CAGR)
 ▲ Elevated near-term risk levels (54/100)
@@ -349,19 +348,19 @@ Year	Score
 
 | Tool | Usage |
 |------|-------|
-| Python (Pandas, NumPy) | Data engineering, ratio calculation, EDA, comps, risk scoring |
-| yfinance | Financial statement data retrieval |
-| Modular Python scripts | Clean separation across pipeline, ratios, EDA, comps, risk, export |
-| Jupyter Notebook | Orchestration and documentation |
-| Tableau Public | Interactive 6-dashboard story with global filters |
+| Python (Pandas, NumPy) | Financial modeling and forecasting|
+| yfinance | Historical financial statement retrieval |
+| Modular Python scripts | Forecasting, valuation, scoring |
+| Tableau Public | Interactive visualization |
 
 ---
+
 ## How to Run
 
 ```bash
 # Clone repository
-git clone 
-cd financial-model
+git clone https://github.com/Adhishree22/Visa_Fundamental_Analysis.git
+cd Visa_Fundamental_Analysis
 
 # Install dependencies
 pip install pandas numpy yfinance
@@ -372,6 +371,7 @@ notebook main_model.ipynb
 ---
 
 ## Known Assumptions & Limitations
+
 -Forecasts assume stable macroeconomic conditions
 -Terminal growth capped at 4%
 -DCF highly sensitive to WACC assumptions
