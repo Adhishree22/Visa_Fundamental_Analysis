@@ -261,7 +261,7 @@ Measures:
 - Cash flow quality
 - Balance sheet strength
 
-|**Year**|** Score**  |
+|**Year**|**Score**  |
 |-------| -------|
 |2025	| 51.92  |
 |2030	| 90.20  |
@@ -277,7 +277,7 @@ Measures:
 - Operating risk
 - Volatility risk
 
-|**Year**| **Score **|
+|**Year**| **Score**|
 |-------| -------|
 |2025	| 54.39  |
 |2030	| 26.41  |
