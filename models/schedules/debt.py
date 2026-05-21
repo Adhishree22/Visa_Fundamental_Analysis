@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 
 def build_debt_schedule(df, forecast):
-  
+
   ebitda_margin = (df["EBITDA"] / df["Revenue"]).replace([np.inf, -np.inf], np.nan).mean()
   forecast["EBITDA"] = forecast["Revenue"] * ebitda_margin
 
@@ -40,7 +40,7 @@ def build_debt_schedule(df, forecast):
   opening_std = df["ShortTermDebt"].iloc[-1]
 
   for year in forecast.index:
-    
+
     repayment_std = -opening_std
     target_debt = forecast.loc[year, "EBITDA"] * target_leverage
 
