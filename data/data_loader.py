@@ -16,7 +16,7 @@ def get_financial_statements(ticker, periods=5):
       "cashflow": cashflow
   }
 
-def get_beta(ticker="V"):
+def get_beta(ticker):
   
   stock = yf.Ticker(ticker)
 
