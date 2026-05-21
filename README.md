@@ -23,7 +23,7 @@ Tableau Dashboard: https://public.tableau.com/views/Visa_Fundamental_Analysis/Vi
 ```
 ├── README.md                          # This file
 │
-├── main_model.ipynb                   # (Google Colab compatible)                                
+├── Visa_Fundamental_Analysis.ipynb    # (Google Colab compatible)                                
 │
 ├── data/
 │   ├── data_loader.py                 # Load & Parse Financial Data (Historical Data From Yfinance)
