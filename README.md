@@ -2,7 +2,7 @@
 
 A production-grade equity research and valuation project on Visa Inc. (NYSE: V) built entirely in Python with a modular financial modeling architecture.
 
-The project integrates historical financial data (2022–2025), driver-based forecasting (2026–2030), fully linked three-statement modeling, ratio analysis, multi-method valuation, quality/risk/growth scoring, and Tableau-based visualization into a complete institutional-style investment framework.
+The project integrates historical financial data (2022–2025), driver-based forecasting (2026–2030), fully linked three-statement modeling, ratio analysis, multi-method valuation, quality/risk/growth scoring, and Tableau-based visualization into a complete investment framework.
 
 - **Recommendation:** BUY
 - **Market Price:** $339.30
