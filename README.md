@@ -261,8 +261,10 @@ Measures:
 - Cash flow quality
 - Balance sheet strength
 
-- 2025 -> 51.92
-- 2030 -> 90.20
+|**Year**|** Score**  |
+|-------| -------|
+|2025	| 51.92  |
+|2030	| 90.20  |
 
 
 ### Risk Score
@@ -275,8 +277,10 @@ Measures:
 - Operating risk
 - Volatility risk
 
-- 2025 -> 54.39
-- 2030 -> 26.41
+|**Year**| **Score **|
+|-------| -------|
+|2025	| 54.39  |
+|2030	| 26.41  |
 
 
 ### Growth Score
@@ -288,8 +292,10 @@ Measures:
 - Operating growth
 - Reinvestment growth
 
-- 2025 -> 45.05
-- 2030 -> 31.43
+|**Year**| **Score**  |
+|-------| -------|
+|2025	| 45.05  |
+|2030	| 31.43  |
 
 ---
 
