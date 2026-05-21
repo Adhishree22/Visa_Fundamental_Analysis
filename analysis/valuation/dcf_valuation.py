@@ -1,6 +1,6 @@
 
 # analysis/valuation/dcf_valuation.py
-
+from data.data_loader import *
 import numpy as np
 import pandas as pd
 
@@ -9,7 +9,8 @@ def compute_wacc(df, forecast, beta):
   #Assumptions
   risk_free_rate = 0.07
   market_premium = 0.05
-  
+  beta = get_beta()
+
   cost_of_debt = (df["Interest"] / df["TotalDebt"]).replace([np.inf, -np.inf], np.nan).dropna().mean()
 
   tax_rate = (df["Taxes"] / df["EBT"]).replace([np.inf, -np.inf], np.nan).dropna().mean()
