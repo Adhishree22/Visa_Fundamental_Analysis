@@ -153,8 +153,8 @@ Revenue = Payment Volume × Take Rate
 ### Forecast Outputs
 | # | Metric | 2025 | 2030 |
 |---|-----------|------------|------------|
-| 1 |**Revenue** | $39.96B | $60.79B | 
-| 2 |**Net Income** | $20.04B | $31.77B | 
+| 1 |**Revenue** | $40B | $60.79B | 
+| 2 |**Net Income** | $20.06B | $31.77B | 
 | 3 |**Free Cash Flow** | $21.58B | $37.89B | 
 | 4 |**Operating Margin** | 66.39% | 67.06% | 
 | 5 |**Net Margin** | 50.14% | 52.27% | 
