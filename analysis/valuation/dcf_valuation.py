@@ -4,12 +4,12 @@ from data.data_loader import *
 import numpy as np
 import pandas as pd
 
-def compute_wacc(df, forecast, beta):
+def compute_wacc(df, forecast, ticker):
   
   #Assumptions
   risk_free_rate = 0.07
   market_premium = 0.05
-  beta = get_beta()
+  beta = get_beta(ticker)
 
   cost_of_debt = (df["Interest"] / df["TotalDebt"]).replace([np.inf, -np.inf], np.nan).dropna().mean()
 
