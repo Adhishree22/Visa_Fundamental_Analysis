@@ -362,8 +362,8 @@ Measures:
 
 ```bash
 # Clone repository
-git clone https://github.com/Adhishree22/Visa_Fundamental_Analysis.git
-cd Visa_Fundamental_Analysis
+!git clone https://github.com/Adhishree22/Visa_Fundamental_Analysis.git
+%cd Visa_Fundamental_Analysis
 
 # Install dependencies
 pip install pandas numpy yfinance
